@@ -52,7 +52,7 @@ body{
     border-radius: 5px;;
     gap:30px;
     padding: 10px;;
-    justify-content:left;
+    justify-content:space-around;
     align-items: center;
     background-color:hsl(300, 24%, 96%);
 }
@@ -63,6 +63,10 @@ body{
 .rating:nth-child(3){
     position: relative;
     left:80px;
+}
+.stars{
+    display: flex;
+    gap:10px;
 }
 .rev{
     color:hsl(300, 43%, 22%);
