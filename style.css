@@ -125,3 +125,57 @@ Soft Pink: hsl(333, 80%, 67%)
 Dark Grayish Magenta: hsl(303, 10%, 53%)
 Light Grayish Magenta: hsl(300, 24%, 96%)
 White: hsl(0, 0%, 100%) */
+@media (max-width:1040px){
+    .card{
+        width:300px;
+    }
+    .top{
+        flex-direction: column;
+        gap:30px;
+        margin-bottom: 180px;
+    }
+    .first{
+        width:300px;
+        gap:20px;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .second{
+        width:300px;
+    }
+    .heading{
+        font-size:35px;
+        width:80%
+    }
+    .hdes{
+        width:95%;
+        line-height:20px;
+        font-size:15px;
+    }
+    .rating{
+        width:90%;
+        flex-direction: column;
+        height:50px;
+        gap:10px;
+        justify-content: center;
+    }
+    .rating:nth-child(2){
+        left:0;
+    }
+    .rating:nth-child(3){
+        left:0;
+    }
+    .rev{
+        font-size: 15px;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .profile{
+        width:300px;
+        height: 220px;;
+        padding:30px;
+        box-sizing: border-box;
+    }
+}
